@@ -1,0 +1,3148 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/manifest.json",
+  "service": {
+    "@context": "http://iiif.io/api/search/0/context.json",
+    "profile": "http://iiif.io/api/search/0/search",
+    "@id": "https://damsssl.llgc.org.uk/iiif/journals/1191403/search"
+  },
+  "label": "Radnorshire Society transactions",
+  "metadata": [
+    {
+      "label": [
+        {
+          "@value": "Title",
+          "@language": "en"
+        },
+        {
+          "@value": "Teitl",
+          "@language": "cy-GB"
+        }
+      ],
+      "value": [
+        {
+          "@value": "Radnorshire Society transactions",
+          "@language": "en"
+        },
+        {
+          "@value": "Trafodion Cymdeithas Sir Faesyfed",
+          "@language": "cy-GB"
+        }
+      ]
+    },
+    {
+      "label": [
+        {
+          "@value": "Issue details",
+          "@language": "en"
+        },
+        {
+          "@value": "Manylion y rhifyn",
+          "@language": "cy-GB"
+        }
+      ],
+      "value": "Vol. 1, 1931"
+    },
+    {
+      "label": "",
+      "value": [
+        {
+          "@value": "<a href=\"http://id.library.wales/vtls002970957\">View full catalogue record</a>",
+          "@language": "en"
+        },
+        {
+          "@value": "<a href=\"http://id.llyfrgell.cymru/vtls002970957\">Gweld y cofnod catalog llawn</a>",
+          "@language": "cy-GB"
+        }
+      ]
+    },
+    {
+      "label": [
+        {
+          "@value": "Permalink",
+          "@language": "en"
+        },
+        {
+          "@value": "Dolen barhaol",
+          "@language": "cy-GB"
+        }
+      ],
+      "value": "<a href=\"http://hdl.handle.net/10107/1191403\">http://hdl.handle.net/10107/1191403</a>"
+    },
+    {
+      "label": [
+        {
+          "@value": "Licence",
+          "@language": "en"
+        },
+        {
+          "@value": "Trwydded",
+          "@language": "cy-GB"
+        }
+      ],
+      "value": [
+        {
+          "@value": "The National Library of Wales has created and published this digital version of the journal under a licence granted by the publisher. The material it contains may be used for all purposes while respecting the moral rights of the creators.",
+          "@language": "en"
+        },
+        {
+          "@value": "Crëwyd a chyhoeddwyd y fersiwn digidol hwn o'r cylchgrawn yn unol â thrwydded a roddwyd gan y cyhoeddwr. Gellir defnyddio'r deunydd ynddo ar gyfer unrhyw bwrpas gan barchu hawliau moesol y crewyr.",
+          "@language": "cy-GB"
+        }
+      ]
+    },
+    {
+      "label": [
+        {
+          "@value": "Repository",
+          "@language": "en"
+        },
+        {
+          "@value": "Ystorfa",
+          "@language": "cy-GB"
+        }
+      ],
+      "value": [
+        {
+          "@value": "This content has been digitised by The National Library of Wales",
+          "@language": "en"
+        },
+        {
+          "@value": "Digidwyd y cynnwys hwn gan Lyfrgell Genedlaethol Cymru",
+          "@language": "cy-GB"
+        }
+      ]
+    }
+  ],
+  "license": "<a href=\"http://www.llgc.org.uk/index.php?id=8001&L=1\">http://www.llgc.org.uk/index.php?id=8001&L=1</a>",
+  "navDate": "1931-01-01T00:00:00Z",
+  "logo": {
+    "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/logo/full/400,/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/logo",
+      "profile": "http://iiif.io/api/image/2/level1.json"
+    }
+  },
+  "attribution": "Llyfrgell Genedlaethol Cymru – The National Library of Wales",
+  "seeAlso": {
+    "@id": "https://damsssl.llgc.org.uk/object/llgc-id:1191403",
+    "format": "application/rdf+xml",
+    "profile": "http://www.europeana.eu/schemas/edm/"
+  },
+  "sequences": [
+    {
+      "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/sequence/physical.json",
+      "@type": "sc:Sequence",
+      "label": "Current Page Order",
+      "viewingDirection": "left-to-right",
+      "viewingHint": "paged",
+      "canvases": [
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191404.json",
+          "@type": "sc:Canvas",
+          "label": "p. unnumbered",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191404.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191404.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191404",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191404.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191404/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191405.json",
+          "@type": "sc:Canvas",
+          "label": "p. unnumbered",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191405.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191405.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191405",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191405.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191406.json",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191406.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191406.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191406",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191406.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191406/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191407.json",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191407.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191407.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191407",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191407.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191407/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191408.json",
+          "@type": "sc:Canvas",
+          "label": "p. 3",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191408.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191408.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191408",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191408.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191408/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191409.json",
+          "@type": "sc:Canvas",
+          "label": "p. 4",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191409.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191409.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191409",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191409.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191409/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191410.json",
+          "@type": "sc:Canvas",
+          "label": "p. 5",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191410.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191410.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191410",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191410.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191410/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191411.json",
+          "@type": "sc:Canvas",
+          "label": "p. 6",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191411.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191411.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191411",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191411.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191411/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191412.json",
+          "@type": "sc:Canvas",
+          "label": "p. 7",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191412.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191412.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191412",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191412.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191412/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191413.json",
+          "@type": "sc:Canvas",
+          "label": "p. 8",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191413.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191413.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191413",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191413.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191413/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191414.json",
+          "@type": "sc:Canvas",
+          "label": "p. 9",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191414.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191414.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191414",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191414.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191414/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191415.json",
+          "@type": "sc:Canvas",
+          "label": "p. 10",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191415.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191415.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191415",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191415.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191415/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191416.json",
+          "@type": "sc:Canvas",
+          "label": "p. 11",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191416.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191416.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191416",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191416.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191416/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191417.json",
+          "@type": "sc:Canvas",
+          "label": "p. 12",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191417.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191417.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191417",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191417.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191417/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191418.json",
+          "@type": "sc:Canvas",
+          "label": "p. [13]",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191418.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191418.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191418",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191418.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191418/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191419.json",
+          "@type": "sc:Canvas",
+          "label": "p. 14",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191419.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191419.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191419",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191419.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191419/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191420.json",
+          "@type": "sc:Canvas",
+          "label": "p. 15",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191420.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191420.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191420",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191420.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191420/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191421.json",
+          "@type": "sc:Canvas",
+          "label": "p. 16",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191421.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191421.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191421",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191421.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191421/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191422.json",
+          "@type": "sc:Canvas",
+          "label": "p. 17",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191422.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191422.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191422",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191422.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191422/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191423.json",
+          "@type": "sc:Canvas",
+          "label": "p. 18",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191423.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191423.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191423",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191423.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191423/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191424.json",
+          "@type": "sc:Canvas",
+          "label": "p. 19",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191424.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191424.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191424",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191424.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191424/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191425.json",
+          "@type": "sc:Canvas",
+          "label": "p. 20",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191425.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191425.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191425",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191425.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191425/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191426.json",
+          "@type": "sc:Canvas",
+          "label": "p. 21",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191426.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191426.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191426",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191426.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191426/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191427.json",
+          "@type": "sc:Canvas",
+          "label": "p. 22",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191427.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191427.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191427",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191427.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191427/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191428.json",
+          "@type": "sc:Canvas",
+          "label": "p. 23",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191428.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191428.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191428",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191428.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191428/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191429.json",
+          "@type": "sc:Canvas",
+          "label": "p. 24",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191429.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191429.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191429",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191429.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191429/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191430.json",
+          "@type": "sc:Canvas",
+          "label": "p. 25",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191430.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191430.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191430",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191430.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191430/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191431.json",
+          "@type": "sc:Canvas",
+          "label": "p. 26",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191431.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191431.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191431",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191431.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191431/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191432.json",
+          "@type": "sc:Canvas",
+          "label": "p. 27",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191432.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191432.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191432",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191432.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191432/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191433.json",
+          "@type": "sc:Canvas",
+          "label": "p. 28",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191433.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191433.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191433",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191433.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191433/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191434.json",
+          "@type": "sc:Canvas",
+          "label": "p. 29",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191434.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191434.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191434",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191434.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191434/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191435.json",
+          "@type": "sc:Canvas",
+          "label": "p. 30",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191435.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191435.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191435",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191435.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191435/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191436.json",
+          "@type": "sc:Canvas",
+          "label": "p. 31",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191436.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191436.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191436",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191436.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191436/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191437.json",
+          "@type": "sc:Canvas",
+          "label": "p. 32",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191437.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191437.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191437",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191437.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191437/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191438.json",
+          "@type": "sc:Canvas",
+          "label": "p. 33",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191438.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191438.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191438",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191438.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191438/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191439.json",
+          "@type": "sc:Canvas",
+          "label": "p. 34",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191439.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191439.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191439",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191439.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191439/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191440.json",
+          "@type": "sc:Canvas",
+          "label": "p. 35",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191440.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191440.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191440",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191440.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191440/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191441.json",
+          "@type": "sc:Canvas",
+          "label": "p. 36",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191441.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191441.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191441",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191441.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191441/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191442.json",
+          "@type": "sc:Canvas",
+          "label": "p. 37",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191442.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191442.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191442",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191442.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191442/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191443.json",
+          "@type": "sc:Canvas",
+          "label": "p. 38",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191443.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191443.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191443",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191443.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191443/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191444.json",
+          "@type": "sc:Canvas",
+          "label": "p. 39",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191444.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191444.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191444",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191444.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191444/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191445.json",
+          "@type": "sc:Canvas",
+          "label": "p. 40",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191445.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191445.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191445",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191445.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191445/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191446.json",
+          "@type": "sc:Canvas",
+          "label": "p. 41",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191446.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191446.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191446",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191446.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191446/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191447.json",
+          "@type": "sc:Canvas",
+          "label": "p. 42",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191447.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191447.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191447",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191447.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191447/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191448.json",
+          "@type": "sc:Canvas",
+          "label": "p. 43",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191448.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191448.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191448",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191448.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191448/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191449.json",
+          "@type": "sc:Canvas",
+          "label": "p. 44",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191449.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191449.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191449",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191449.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191449/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191450.json",
+          "@type": "sc:Canvas",
+          "label": "p. 45",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191450.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191450.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191450",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191450.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191450/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191451.json",
+          "@type": "sc:Canvas",
+          "label": "p. 46",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191451.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191451.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191451",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191451.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191451/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191452.json",
+          "@type": "sc:Canvas",
+          "label": "p. 47",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191452.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191452.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191452",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191452.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191452/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191453.json",
+          "@type": "sc:Canvas",
+          "label": "p. 48",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191453.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191453.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191453",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191453.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191453/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191454.json",
+          "@type": "sc:Canvas",
+          "label": "p. 49",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191454.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191454.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191454",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191454.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191454/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191455.json",
+          "@type": "sc:Canvas",
+          "label": "p. 50",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191455.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191455.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191455",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191455.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191455/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191456.json",
+          "@type": "sc:Canvas",
+          "label": "p. 51",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191456.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191456.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191456",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191456.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191456/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191457.json",
+          "@type": "sc:Canvas",
+          "label": "p. 52",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191457.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191457.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191457",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191457.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191457/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191458.json",
+          "@type": "sc:Canvas",
+          "label": "p. 53",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191458.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191458.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191458",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191458.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191458/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191459.json",
+          "@type": "sc:Canvas",
+          "label": "p. 54",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191459.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191459.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191459",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191459.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191459/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191460.json",
+          "@type": "sc:Canvas",
+          "label": "p. 55",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191460.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191460.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191460",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191460.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191460/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191461.json",
+          "@type": "sc:Canvas",
+          "label": "p. [56]",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191461.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191461.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191461",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191461.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191461/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191462.json",
+          "@type": "sc:Canvas",
+          "label": "p. unnumbered",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191462.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191462.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191462",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191462.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191462/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191463.json",
+          "@type": "sc:Canvas",
+          "label": "p. unnumbered",
+          "height": 3941,
+          "width": 2515,
+          "images": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/annotation/1191463.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/res/1191463.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://damsssl.llgc.org.uk/iiif/2.0/image/1191463",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "height": 3941,
+                  "width": 2515,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ]
+                },
+                "height": 3941,
+                "width": 2515
+              },
+              "on": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191463.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://damsssl.llgc.org.uk/iiif/1191463/annotation/list.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/range/AWJBY001001",
+      "@type": "sc:Range",
+      "label": "[front matter]",
+      "canvases": [
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191404.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191405.json"
+      ],
+      "rendering": {
+        "@id": "https://datasyllwr.llgc.org.uk/journals/pdf/AWJBY001001.pdf",
+        "format": "application/pdf",
+        "label": [
+          {
+            "@value": "Download '[front matter]'",
+            "@language": "en"
+          },
+          {
+            "@value": "Lawrlwytho '[front matter]'",
+            "@language": "cy-GB"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/range/AWJBY001002",
+      "@type": "sc:Range",
+      "label": "[society notes]",
+      "canvases": [
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191406.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191407.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191408.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191409.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191410.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191411.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191412.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191413.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191414.json"
+      ],
+      "rendering": {
+        "@id": "https://datasyllwr.llgc.org.uk/journals/pdf/AWJBY001002.pdf",
+        "format": "application/pdf",
+        "label": [
+          {
+            "@value": "Download '[society notes]'",
+            "@language": "en"
+          },
+          {
+            "@value": "Lawrlwytho '[society notes]'",
+            "@language": "cy-GB"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/range/AWJBY001003",
+      "@type": "sc:Range",
+      "label": "The Llandrindod Wells dug-out boat",
+      "canvases": [
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191415.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191416.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191417.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191418.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191419.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191420.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191421.json"
+      ],
+      "rendering": {
+        "@id": "https://datasyllwr.llgc.org.uk/journals/pdf/AWJBY001003.pdf",
+        "format": "application/pdf",
+        "label": [
+          {
+            "@value": "Download 'The Llandrindod Wells dug-out boat'",
+            "@language": "en"
+          },
+          {
+            "@value": "Lawrlwytho 'The Llandrindod Wells dug-out boat'",
+            "@language": "cy-GB"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/range/AWJBY001004",
+      "@type": "sc:Range",
+      "label": "Schedule of Radnorshire place names",
+      "canvases": [
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191422.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191423.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191424.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191425.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191426.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191427.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191428.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191429.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191430.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191431.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191432.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191433.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191434.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191435.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191436.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191437.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191438.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191439.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191440.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191441.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191442.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191443.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191444.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191445.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191446.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191447.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191448.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191449.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191450.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191451.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191452.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191453.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191454.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191455.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191456.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191457.json"
+      ],
+      "rendering": {
+        "@id": "https://datasyllwr.llgc.org.uk/journals/pdf/AWJBY001004.pdf",
+        "format": "application/pdf",
+        "label": [
+          {
+            "@value": "Download 'Schedule of Radnorshire place names'",
+            "@language": "en"
+          },
+          {
+            "@value": "Lawrlwytho 'Schedule of Radnorshire place names'",
+            "@language": "cy-GB"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/range/AWJBY001005",
+      "@type": "sc:Range",
+      "label": "Summer excursion",
+      "canvases": [
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191457.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191458.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191459.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191460.json"
+      ],
+      "rendering": {
+        "@id": "https://datasyllwr.llgc.org.uk/journals/pdf/AWJBY001005.pdf",
+        "format": "application/pdf",
+        "label": [
+          {
+            "@value": "Download 'Summer excursion'",
+            "@language": "en"
+          },
+          {
+            "@value": "Lawrlwytho 'Summer excursion'",
+            "@language": "cy-GB"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/range/AWJBY001006",
+      "@type": "sc:Range",
+      "label": "[back matter]",
+      "canvases": [
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191461.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191462.json",
+        "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191463.json"
+      ],
+      "rendering": {
+        "@id": "https://datasyllwr.llgc.org.uk/journals/pdf/AWJBY001006.pdf",
+        "format": "application/pdf",
+        "label": [
+          {
+            "@value": "Download '[back matter]'",
+            "@language": "en"
+          },
+          {
+            "@value": "Lawrlwytho '[back matter]'",
+            "@language": "cy-GB"
+          }
+        ]
+      }
+    }
+  ]
+}
