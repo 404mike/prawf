@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OpenSeaDragon</title>
+  <link href="css/styles.css" rel="stylesheet"/>
+  <script src="openseadragon/openseadragon.min.js"></script>
+</head>
+<body>
+  
+  <div class="openseadragon" id="example-inline-configuration-for-image"></div>
+ 
+  <script type="text/javascript">
+      let viewer = OpenSeadragon({
+          id:            "example-inline-configuration-for-image",
+          prefixUrl:     "openseadragon/images/",
+          tileSources:   {
+              type: 'image',
+              url:  'https://damsssl.llgc.org.uk/iiif/2.0/image/1586447/full/,1200/0/default.jpg'
+          }
+      });
+  </script>
+
+</body>
+</html>

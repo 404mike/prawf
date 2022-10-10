@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PHP 1</title>
+  <link href="../css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+  <h1>PHP</h1>
+
+  <p>Using PSR-4 create an accessible HTML interface that display's 10 thumbnail images from <a target="_blank" href="`manifest.json">manifest.json</a>. </p>
+
+  <p>The interface should include the Collection title in Welsh - "Trafodion Cymdeithas Sir Faesyfed".</p>
+
+  <p>To create a thumbnail link you must loop through sequences->canvases and extact the value from `@id` - such as `https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191404.json`. </p>
+
+  <code>
+    <pre>
+      "@id": "https://damsssl.llgc.org.uk/iiif/2.0/1191403/canvas/1191404.json",
+      "@type": "sc:Canvas",
+      "label": "p. unnumbered",
+      "height": 3941,
+      "width": 2515,
+    </pre>
+  </code>
+
+  <p>The final number `1191404` from the URL can be used to generate an image from <code>https://damsssl.llgc.org.uk/iiif/2.0/image/{PID}/full/,400/0/default.jpg</code> replace <code>{PID}</code> with <code>1191404</code> - eg <a target="_blank" href="https://damsssl.llgc.org.uk/iiif/2.0/image/1191404/full/,400/0/default.jpg">https://damsssl.llgc.org.uk/iiif/2.0/image/1191404/full/,400/0/default.jpg</a>.</p>
+
+  <p>Each thumbnail should also include the label for that image from <code>label</code> - <code>"p. unnumbered"</code></p>
+
+  <p>If time allows create a pagination link at the bottom of the page which allows a user to paginate through all the thumbnails in the collection.</p>
+
+  </body>
+</html>

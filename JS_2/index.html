@@ -1,24 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>OpenSeaDragon</title>
-  <link href="css/styles.css" rel="stylesheet"/>
-  <script src="openseadragon/openseadragon.min.js"></script>
+	<title>JavaScript 2</title>
+  <link href="../css/styles.css" rel="stylesheet"/>
 </head>
 <body>
-  
-  <div class="openseadragon" id="example-inline-configuration-for-image"></div>
- 
-  <script type="text/javascript">
-      let viewer = OpenSeadragon({
-          id:            "example-inline-configuration-for-image",
-          prefixUrl:     "openseadragon/images/",
-          tileSources:   {
-              type: 'image',
-              url:  'https://damsssl.llgc.org.uk/iiif/2.0/image/1586447/full/,1200/0/default.jpg'
-          }
-      });
-  </script>
+  <h1>JavaScript</h1>
 
-</body>
+  <p>Add four buttons to <a target="_blank" href="viewer.html">viewer.html</a>. Each button should allow a user click on a button to rotate the image 90 degrees, 180 degrees, 360 degrees and 0 degrees.</p>
+
+  </p>To rotate the image call the setRotation with JavaScript - eg <code>viewer.viewport.setRotation(180)</code></p>
+  </body>
 </html>
