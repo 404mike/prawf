@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PHP 1</title>
+  <link href="../css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+  <h1>PHP 2 - Data parsing</h1>
+
+  <p><code><a href="people.json">people.json (opens in new window)</a></code> contains information for ~500 people (randomly generated).</p>
+
+  <p>
+    Each person has the following information:
+    <code>
+      <pre>
+        {
+          "id": 147,
+          "name": "Dr. Garnet Kessler",
+          "address": "645 Deron Radial Apt. 566\nPort Ricky, WI 93689",
+          "email": "pblick@reinger.net",
+          "profile": "images\/147.jpg"
+        }
+      </pre>
+    </code>
+  </p>
+
+  <p>
+    You must split the <code><a href="people.json">people.json (opens in new window)</a></code> file into groups of 25 and place them within their own directory. Similar to:
+    <code>
+      <pre>
+       - people
+          - group_1
+            - person_2
+            - person_45
+            ...
+          - group_2
+            - person_89
+            - person_234
+            ...
+          - group_3
+            ...
+      </pre>
+    </code>
+
+    The number at the end of the <code>person</code> directory should be the users ID.
+  </p>
+
+  <p>
+    Each <code>person</code> directory should include a JSON file containing that persons name and their profile image.
+
+    <code>
+      <pre>
+        - people
+          - group_1
+            - person_2
+              - image_147.jpg
+              - metadata.json
+      </pre>
+    </code>
+  </p>
+
+  </body>
+</html>
