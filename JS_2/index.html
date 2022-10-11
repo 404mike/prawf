@@ -1,14 +1,336 @@
-<!DOCTYPE html>
-<html>
+
+<!doctype html>
+<html lang="en">
 <head>
-	<title>JavaScript 2</title>
-  <link href="../css/styles.css" rel="stylesheet"/>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SITE SPECIFIC meta tags-->
+    
+<meta name="description" content="Branded-frame test site" />
+<meta property="og:title" content="The National Library of Wales" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="" />
+<meta property="og:image" content="https://brandedframe.library.wales/templates/bootstrap5-nui/img/llgc-nlw-ogImage.png" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="https://brandedframe.library.wales/templates/bootstrap5-nui/img/favicon.ico"/>
+
+            <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <!-- Branded Frame CSS - applies to all sites-->
+    <link rel="stylesheet" type="text/css" href="https://brandedframe.library.wales/templates/bootstrap5-nui/css/llgc_brandedframe.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" media="all">
+
+    <!-- lato and roboto fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,550,700|Roboto:400,500" rel="stylesheet">
+
+    <!-- Site Specific CSS from the tpl file in /css-->
+    
+    <!-- SITE SPECIFIC js files -->
+    
+    <!-- Site Specific TITLE from the tpl file in /metaTags-->
+    <title>The National Library of Wales - JavaScript 2</title>
+
+
+
 </head>
 <body>
+<div id="skipnav"><a href="#skip-to-content">Skip to main content</a></div>
+<div class="container llgc_navbar">
+    <nav class="navbar navbar-expand-lg bg-#FFFFFF" role="navigation" aria-label="Navbar" title="Navbar">
+        <div class="llgc_navbar_container container-fluid">
+            <a class="llgc_header_logo" href="https://www.library.wales/">
+                <img class="" width="284" src="https://brandedframe.library.wales/templates/bootstrap5-nui/img/llgc_logo.png" aria-label="Ewch i hafan LlGC" title="Ewch i hafan LlGC" alt="Logo baner LlGC"/>
+            </a>
+            <a class="llgc_header_logo_small" href="https://www.library.wales/">
+                <img class="" width="63" src="https://brandedframe.library.wales/templates/bootstrap5-nui/img/logo-nlw-sgwar.svg" aria-label="Ewch i hafan LlGC" title="Ewch i hafan LlGC" alt="Logo bach LlGC"/>
+            </a>
+            <!-- Previous nav-icon/button -->
+            <!--            <button class="navbar-toggler llgc_nav_icon ms-auto mb-3 mb-lg-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="--><?//= $lang['b5.header.navbar-toggler.aria']; ?><!--" title="--><?//= $lang['b5.header.navbar-toggler.title']; ?><!--">-->
+            <!--                Code for previous nav-icon <span class="navbar-toggler-icon"></span> -->
+            <!--                <i class="fas fa-chevron-up "></i> --><?//= $lang['b5.header.navbar-toggler.text']; ?>
+            <!--            </button>-->
+            <a class="llgc_navbar_link llgc_translate" id="llgc_lang_switch" href="" title="Translate page to Welsh" aria-label="Translate page to Welsh" lang="cy">Cymraeg</a>
+            <button class="llgc_nav_toggler second-button mb-3 mb-lg-0 collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarText"
+                    aria-controls="navbarToggleExternalContent10" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+            </button>
+        </div>
+        <nav class="collapse navbar-collapse llgc_slide_content" id="navbarText">
+            <ul class="navbar-nav mb-2 mb-lg-0" >
+                <li class="nav-item llgc_site_specific_link" id="llgc_home_page_mobile">
+                    <a class="llgc_navbar_link text-start text-nowrap llgc_hide_nav" id="llgc_home_page" aria-current="page" href="https://frame.library.wales/" title="Go back to Home page" aria-label="Go back to Home page">Home</a>
+                </li>
+                <li class="nav-item " id="llgc_tithe_maps_mobile">
+                    <a class="llgc_navbar_link text-start text-nowrap" id="llgc_tithe_maps" aria-current="page" href="https://places.library.wales/" title="Go to the Tithe Maps page" aria-label="Go to the Tithe Maps page">Tithe Maps</a>
+                </li>
+                <li class="nav-item" id="llgc_newspapers_mobile">
+                    <a class="llgc_navbar_link text-nowrap" id="llgc_newspapers" href="https://newspapers.library.wales/" title="Go to the Newspapers page" aria-label="Go to the Newspapers page">Newspapers</a>
+                </li>
+                <li class="nav-item" id="llgc_journals_mobile">
+                    <a class="llgc_navbar_link text-nowrap" id="llgc_journals" href="https://journals.library.wales/" title="Go to the Journals page" aria-label="Go to the Journals page">Journals</a>
+                </li>
+                <li class="nav-item" id="llgc_catalogue_mobile">
+                    <a class="llgc_navbar_link text-nowrap" id="llgc_catalogue" href="https://discover.library.wales/" title="Go to the Main Catalogue" aria-label="Go to the Main Catalogue">Catalogue</a>
+                </li>
+                <li class="nav-item" id="llgc_more_resources_mobile">
+                    <a class="llgc_navbar_link" id="llgc_more_resources" href="https://www.library.wales/index.php?id=6860" title="Go to our other resources" aria-label="Go to our other resources">Resources</a>
+                </li>
+                                <span class="llgc_navbar_separator" role="separator">|</span>
+                <a class="llgc_navbar_link llgc_translate_navbar" id="llgc_mobile_lang_switch" href="" title="Translate page to Welsh" aria-label="Translate page to Welsh">Cymraeg</a>
+            </ul>
+        </nav>
+    </nav>
+</div>
+
+<!-- Main site text -->
+<div class="container llgc_main_text shadow-sm pt-3 pb-1 bg-white border-top" id="llgc_main_content" role="main">
+    <a id="skip-to-content"></a>
+
+
+
+
   <h1>JavaScript - Working with third party library and events</h1>
 
   <p>Add four buttons to <a target="_blank" href="viewer.html">viewer.html (opens in new window)</a>. Each button should allow a user to click and rotate the image 90 degrees, 180 degrees, 360 degrees and 0 degrees.</p>
 
   </p>To rotate the image call <code>setRotation</code> with JavaScript - eg <code>viewer.viewport.setRotation(180)</code></p>
-  </body>
+
+  
+
+
+</div>
+<footer>
+
+    <!-- Footer links -->
+    <div class="container llgc_footer_column_links py-3">
+
+        <div class="accordion accordion-flush llgc_footer_accordion" id="accordionFlushMenu">
+            <!-- Address section in accordion menu -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button open llgc_footer_header" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne" >
+                        Address                    </button>
+                </h2>
+                <!-- Insert this code in the div below to only allow one accordion item open at a time  (data-bs-parent="#accordionFlushMenu")-->
+                <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="flush-collapseOne">
+                    <ul class="nav flex-column ">
+                        <li class="llgc_footer_content ps-3 mb-2 mt-2">
+                            <address>
+                                The National Library of Wales<br />
+                                Aberystwyth<br />
+                                Ceredigion<br />
+                                SY23 3BU
+                            </address>
+                        </li>
+                        <li class="llgc_link mb-2 ps-3 text-decoration-underline"><a href="https://www.google.co.uk/maps/preview#!data=!1m4!1m3!1d1342!2d-4.0680885!3d52.4141883!4m12!2m11!1m10!1s0x0%3A0x97099760c1296086!3m8!1m3!1d19469!2d-4.0776407!3d52.4144683!3m2!1i1024!2i768!4f13.1" class="llgc_link" title="View on Map" aria-label="Link to view on a map">View on Map</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Opening hours section in accordion menu -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed llgc_footer_header" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Opening Hours                    </button>
+                </h2>
+                <!-- Insert this code in the div below to only allow one accordion item open at a time  (data-bs-parent="#accordionFlushMenu")-->
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" >
+                    <ul class="nav flex-column">
+                        <li class="llgc_footer_content mb-1 mt-2 ps-3">Monday - Friday 09:00 - 17:00</li>
+                        <li class="llgc_footer_content mb-1 ps-3">Saturday 09:30 - 16:30</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contact us section in accordion menu -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed llgc_footer_header" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Contact Us                    </button>
+                </h2>
+                <!-- Insert this code in the div below to only allow one accordion item open at a time  (data-bs-parent="#accordionFlushMenu")-->
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" >
+                    <ul class="nav flex-column">
+                        <li class="llgc_footer_link mt-2 mb-2 ps-3"><a href="tel:01970632800" class="llgc_footer_content llgc_footer_link " title="Phone the Library" aria-label="Link to call the Library">Phone: 01970 632 800</a></li>
+                        <li class="llgc_footer_link mb-2 ps-3">Fax: 01970 615 709</li>
+                        <li class="llgc_footer_link mb-2 ps-3"><a href="mailto:gofyn@library.wales" class="llgc_footer_content llgc_footer_link" title="Contact our enquiries service " aria-label="Contact our enquiries service ">Email: gofyn@library.wales</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- About NLW section in accordion menu -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed llgc_footer_header" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        About NLW                    </button>
+                </h2>
+                <!-- Insert this code in the div below to only allow one accordion item open at a time  (data-bs-parent="#accordionFlushMenu")-->
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" >
+                    <ul class="nav flex-column">
+                        <li class="llgc_footer_link mb-2 mt-2"><a href="https://www.library.wales/index.php?id=7961" title="Find out About us" aria-label="Find out About us" class="llgc_link llgc_footer_link p-3">About us</a></li>
+                        <li class="llgc_footer_link mb-2"><a href="https://www.library.wales/index.php?id=12960" title="Find out how to Contact us" aria-label="Find out how to Contact us" class="llgc_link llgc_footer_link p-3">Contact us</a></li>
+                        <li class="llgc_footer_link mb-2"><a href="https://www.library.wales/index.php?id=1189" title="Go to the Jobs page" aria-label="Go to the Jobs page" class="llgc_link llgc_footer_link p-3">Jobs</a></li>
+                        <li class="llgc_footer_link mb-2"><a href="https://www.library.wales/index.php?id=147" title="Contact our enquiries service " aria-label="Contact our enquiries service " class="llgc_link llgc_footer_link p-3">Enquiries</a></li>
+                        <li class="llgc_footer_link mb-2"><a href="https://www.library.wales/index.php?id=6280" title="Go to our Governance page" aria-label="Go to our Governance page" class="llgc_link llgc_footer_link p-3">Governance</a></li>
+                        <li class="llgc_footer_link mb-2"><a href="https://www.library.wales/index.php?id=14" title="Find out how to Donate" aria-label="Find out how to Donate" class="llgc_link llgc_footer_link p-3">Donate</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Visit and Search section in accordion menu -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFive">
+                    <button class="accordion-button collapsed llgc_footer_header" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        Visit and Search                    </button>
+                </h2>
+                <!-- Insert this code in the div below to only allow one accordion item open at a time  (data-bs-parent="#accordionFlushMenu")-->
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" >
+                    <ul class="nav flex-column">
+                        <li class="llgc_footer_link mb-2 mt-2"><a href="https://www.library.wales/index.php?id=52" class="llgc_link llgc_footer_link p-3" title="Find out when the Library is open" aria-label="Find out when the Library is open">Opening hours</a></li>
+                        <li class="llgc_footer_link mb-2"><a href="https://www.library.wales/index.php?id=53" title="Find out how to get to Library" aria-label="Find out how to get to Library" class="llgc_link llgc_footer_link p-3">How to get to NLW</a></li>
+                        <li class="llgc_footer_link mb-2"><a href="https://www.library.wales/index.php?id=12968" title="Search the Catalogue" aria-label="Search the Catalogue" class="llgc_link llgc_footer_link p-3">Search the Catalogue</a></li>
+                        <li class="llgc_footer_link mb-2"><a href="https://www.library.wales/index.php?id=63" title="Find out how to get a Reader's Ticket" aria-label="Find out how to get a Reader's Ticket" class="llgc_link llgc_footer_link p-3">How to get a Reader's Ticket</a></li>
+                        <li class="llgc_footer_link mb-2"><a href="https://www.library.wales/index.php?id=159" title="Find out about current Exhibitions" aria-label="Find out about current Exhibitions" class="llgc_link llgc_footer_link p-3">Exhibitions</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <!-- Address section in footer -->
+            <div class="llgc_address_section col-md-4 col-lg-3 border-end border-bottom" title="Address">
+                <h3 class="llgc_footer_header">Address</h3>
+                <ul class="nav flex-column ">
+                    <li class="llgc_footer_link mb-1">
+                        <address>
+                            The National Library of Wales<br />
+                            Aberystwyth<br />
+                            Ceredigion<br />
+                            SY23 3BU
+                        </address>
+                    </li>
+                    <li class="llgc_footer_link mb-2 pt-2 llgc_view_on_map" title="View on Map" aria-label="Link to view on a map">
+                        <a href="https://www.google.co.uk/maps/preview#!data=!1m4!1m3!1d1342!2d-4.0680885!3d52.4141883!4m12!2m11!1m10!1s0x0%3A0x97099760c1296086!3m8!1m3!1d19469!2d-4.0776407!3d52.4144683!3m2!1i1024!2i768!4f13.1">View on Map</a>
+                    </li>
+                </ul>
+                <br>
+                <h3 class="llgc_footer_header">Opening Hours</h3>
+                <ul class ="nav flex-column">
+                    <li class="llgc_footer_link mb-2">Monday - Friday 09:00 - 17:00</li>
+                    <li class="llgc_footer_link mb-2">Saturday 09:30 - 16:30</li>
+                </ul>
+                <br>
+                <h3 class="llgc_footer_header">Contact</h3>
+                <ul class ="nav flex-column">
+                    <li class="llgc_footer_link mb-2 text-nowrap">
+                        <a href="tel:01970632800" class="llgc_link llgc_footer_link p-0 " title="Phone the Library" aria-label="Phone the Library">Phone: 01970 632 800</a>
+                    </li>
+                    <li class="llgc_footer_link mb-2 text-nowrap">Fax: 01970 615 709</li>
+                    <li class="llgc_footer_link mb-2 text-nowrap"><a href="mailto:gofyn@library.wales" class="llgc_link llgc_footer_link p-0 " title="Contact our enquiries service " aria-label="Contact our enquiries service ">Email: gofyn@library.wales</a></li>
+                </ul>
+                <br>
+
+            </div>
+
+            <!-- About NLW section in footer -->
+            <nav class="llgc_about_section col-md-4 col-lg-2 border-end border-bottom" title="About NLW">
+                <h3 class="llgc_footer_header">About NLW</h3>
+                <ul class="nav flex-column">
+                    <li class="llgc_footer_link mb-1"><a href="https://www.library.wales/index.php?id=7961" class="llgc_link llgc_footer_link p-0 " title="Find out About us" aria-label="Find out About us">About us</a></li>
+                    <li class="llgc_footer_link mb-1"><a href="https://www.library.wales/index.php?id=12960" class="llgc_link llgc_footer_link p-0 " title="Find out how to Contact us" aria-label="Find out how to Contact us">Contact us</a></li>
+                    <li class="llgc_footer_link mb-1"><a href="https://www.library.wales/index.php?id=1189" class="llgc_link llgc_footer_link p-0 " title="Go to the Jobs page" aria-label="Go to the Jobs page">Jobs</a></li>
+                    <li class="llgc_footer_link mb-1"><a href="https://www.library.wales/index.php?id=147" class="llgc_link llgc_footer_link p-0 " title="Contact our enquiries service " aria-label="Contact our enquiries service ">Enquiries</a></li>
+                    <li class="llgc_footer_link mb-1"><a href="https://www.library.wales/index.php?id=6280" class="llgc_link llgc_footer_link p-0 " title="Go to our Governance page" aria-label="Go to our Governance page">Governance</a></li>
+                    <li class="llgc_footer_link mb-1"><a href="https://www.library.wales/index.php?id=14" class="llgc_link llgc_footer_link p-0 " title="Find out how to Donate" aria-label="Find out how to Donate">Donate</a></li>
+                </ul>
+                <br>
+            </nav>
+
+            <!-- Visit and Search section in footer -->
+            <nav class="llgc_visit_and_search_section col-md-4 col-lg-2 border-bottom" title="Visit and Search">
+                <h3 class="llgc_footer_header">Visit and Search</h3>
+                <ul class="nav flex-column">
+                    <li class="llgc_footer_link mb-1"><a href="https://www.library.wales/index.php?id=52" class="llgc_link llgc_footer_link p-0 " title="Find out when the Library is open" aria-label="Find out when the Library is open">Opening hours</a></li>
+                    <li class="llgc_footer_link mb-1"><a href="https://www.library.wales/index.php?id=53" class="llgc_link llgc_footer_link p-0 " title="Find out how to get to Library" aria-label="Find out how to get to Library">How to get to NLW</a></li>
+                    <li class="llgc_footer_link mb-1"><a href="https://www.library.wales/index.php?id=12968" class="llgc_link llgc_footer_link p-0 " title="Search the Catalogue" aria-label="Search the Catalogue">Search the Catalogue</a></li>
+                    <li class="llgc_footer_link mb-1"><a href="https://www.library.wales/index.php?id=63" class="llgc_link llgc_footer_link p-0 " title="Find out how to get a Reader's Ticket" aria-label="Find out how to get a Reader's Ticket">How to get a Reader's Ticket</a></li>
+                    <li class="llgc_footer_link mb-1"><a href="https://www.library.wales/index.php?id=159" class="llgc_link llgc_footer_link p-0 " title="Find out about current Exhibitions" aria-label="Find out about current Exhibitions">Exhibitions</a></li>
+                </ul>
+                <br>
+            </nav>
+
+            <!-- Sign up to newsletter form and privacy statement-->
+            <!-- Begin Mailchimp Signup Form -->
+            <div class="llgc_sign_up_section col-md-12 col-lg-4 mt-lg-0 mt-md-4 border-bottom " id="mc_embed_signup">
+                <form action="https://llgc.us13.list-manage.com/subscribe/post?u=8dd656bdad19f96df954344e5&amp;id=7b4ff1b3b3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                    <h3 class="llgc_sign_up_header">Sign up to our newsletter</h3>
+                    <p class="llgc_footer_link llgc_sign_up_text">Receive the latest news and updates from the National Library of Wales</p>
+                    <div class="d-flex w-100 gap-2 text-nowrap">
+                        <label for="mce-EMAIL" class="visually-hidden">Email address</label>
+                        <div class="border-bottom  border-secondary border-1">
+                            <input type="email" value="" name="EMAIL" id="mce-EMAIL" class="llgc_email_field" placeholder="Email address">
+                            <button class="btn btn-secondary text-nowrap llgc_sign_up_btn" type="submit" name="subscribe" id="mc-embedded-subscribe">Sign up</button>
+                        </div>
+                    </div>
+                    <br>
+                    <a href="https://www.library.wales/index.php?id=355" class="llgc_privacy_statement " title="Privacy statement" aria-label="Privacy statement">Read our privacy statement</a>
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer images -->
+        <div class="d-flex justify-content-between my-3 pb-3 border-bottom">
+            <!-- SITE SPECIFIC footer logos-->
+            <div class="col-xs-12 llgc_footer_logos">
+    <img src="https://brandedframe.library.wales/templates/bootstrap5-nui/img/footer_logos/logo-wg.svg" alt="Logo - Welsh Government" title="Logo - Welsh Government" />
+</div>        </div>
+
+        <!-- Statements accessibility and social media icons/links -->
+        <nav class="d-flex py-2 my-2 nav flex-lg-row">
+            <ul class="list-group list-unstyled list-group-horizontal-sm d-flex llgc_privacy_copyright_accessibility_contact_links">
+                <li><a class="link-dark me-4 text-nowrap" href="https://www.library.wales/index.php?id=355" title="Go to our Privacy & Cookies page" aria-label="Go to our Privacy & Cookies page">Privacy & Cookies</a></li>
+                <li><a class="link-dark me-4 mt-sm-4" href="https://www.library.wales/index.php?id=462" title="Go to our Copyright page" aria-label="Go to our Copyright page">Copyright</a></li>
+                <li><a class="link-dark  me-4 " href="https://www.library.wales/index.php?id=12766" title="Go to our Accessibility page" aria-label="Go to our Accessibility page">Accessibility</a></li>
+                <!-- INSERT SITE SPECIFIC LINKS-->
+                
+            </ul>
+
+            <ul class="list-unstyled d-flex justify-content-md-end col-md-4 ms-auto mb-2 mb-lg-0 llgc_social_icons">
+                <li class="ms-4"><a class="link-dark" href="https://twitter.com/nlwales"><img class="bi" width="20" src="https://brandedframe.library.wales/templates/bootstrap5-nui/img/sm_icons/twitter.svg" alt="Twitter logo" aria-label="Go to the Library's Twitter page" title="Go to the Library's Twitter page"/></a></li>
+                <li class="ms-4"><a class="link-dark" href="https://www.youtube.com/user/llyfrgen"><img class="bi" width="20" src="https://brandedframe.library.wales/templates/bootstrap5-nui/img/sm_icons/youtube.svg" alt="YouTube logo" aria-label="Go to the Library's Youtube page" title="Go to the Library's Youtube page"/></a></li>
+                <li class="ms-4"><a class="link-dark" href="https://www.instagram.com/librarywales/"><img class="bi" width="20" src="https://brandedframe.library.wales/templates/bootstrap5-nui/img/sm_icons/instagram.svg" alt="Instagram logo" aria-label="Go to the Library's Instagram page" title="Go to the Library's Instagram page"/></a></li>
+                <li class="ms-4"><a class="link-dark" href="https://www.facebook.com/llgcymrunlwales/"><img class="bi" width="20" src="https://brandedframe.library.wales/templates/bootstrap5-nui/img/sm_icons/facebook.svg" alt="Facebook" aria-label="Go to the Library's Facebook page" title="Go to the Library's Facebook page"/></a></li>
+                <li class="ms-4"><a class="link-dark" href="https://www.flickr.com/photos/llgc/"><img class="bi" width="20" src="https://brandedframe.library.wales/templates/bootstrap5-nui/img/sm_icons/flickr.svg" alt="Flickr logo" aria-label="Go to the Library's Flickr page" title="Go to the Library's Flickr page"/></a></li>
+                <li class="ms-4"><a class="link-dark" href="https://www.pinterest.co.uk/llgcnlw/"><img class="bi" width="20" src="https://brandedframe.library.wales/templates/bootstrap5-nui/img/sm_icons/pinterest.svg" alt="" aria-label="Go to the Library's Pinterest page" title="Go to the Library's Pinterest page"/></a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha512-bnIvzh6FU75ZKxp0GXLH9bewza/OIw6dLVh9ICg0gogclmYGguQJWl8U30WpbsGTqbIiAwxTsbe76DErLq5EDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script id="llgc_cookie_control" src="https://cookies.library.wales/cookie.js"></script>
+
+<!-- SITE SPECIFIC JavaScript files -->
+<script>
+
+    document.querySelector('.second-button').addEventListener('click', function () {
+
+        document.querySelector('.animated-icon2').classList.toggle('open');
+    });
+
+</script>
+
+</body>
+
 </html>
